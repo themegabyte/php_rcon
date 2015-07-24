@@ -1,0 +1,699 @@
+cmdlist
+status
+dvarlist
+touchFile
+fdir
+dir
+fullpath
+path
+map
+setPerk
+stringUsage
+scriptUsage
+tell
+say
+killserver
+devmap
+gameCompleteStatus
+map_rotate
+fast_restart
+map_restart
+dumpuser
+systeminfo
+serverinfo
+clientkick
+unbanUser
+tempBanClient
+tempBanUser
+kick
+banClient
+banUser
+onlykick
+heartbeat
+net_dumpprofile
+in_restart
+writedefaults
+writeconfig
+quit
+meminfo
+exec
+set
+con_showchannel
+readStats
+uploadStats
+statGetInDvar
+statSet
+con_visiblechannellist
+con_hidechannel
+con_channellist
+wait
+vstr
+setu
+dvar_float
+dvar_int
+dvar_bool
+dvardump
+reset
+setdvartotime
+setfromlocString
+setfromdvar
+seta
+sets
+togglep
+toggle
+
+arch ""
+authPort "20800"
+authServerName "cod4master.activision.com"
+bg_aimSpreadMoveSpeedThreshold "11"
+bg_bobAmplitudeDucked "0.0075 0.0075"
+bg_bobAmplitudeProne "0.02 0.005"
+bg_bobAmplitudeSprinting "0.02 0.014"
+bg_bobAmplitudeStanding "0.007 0.007"
+bg_bobMax "8"
+bg_fallDamageMaxHeight "300"
+bg_fallDamageMinHeight "128"
+bg_foliagesnd_fastinterval "500"
+bg_foliagesnd_maxspeed "180"
+bg_foliagesnd_minspeed "40"
+bg_foliagesnd_resetinterval "500"
+bg_foliagesnd_slowinterval "1500"
+bg_ladder_yawcap "100"
+bg_legYawTolerance "20"
+bg_maxGrenadeIndicatorSpeed "20"
+bg_prone_yawcap "85"
+bg_shock_lookControl "1"
+bg_shock_lookControl_fadeTime "2"
+bg_shock_lookControl_maxpitchspeed "35"
+bg_shock_lookControl_maxyawspeed "35"
+bg_shock_lookControl_mousesensitivityscale "0.1"
+bg_shock_movement "1"
+bg_shock_screenBlurBlendFadeTime "1"
+bg_shock_screenBlurBlendTime "0.4"
+bg_shock_screenFlashShotFadeTime "0"
+bg_shock_screenFlashWhiteFadeTime "0"
+bg_shock_screenType "blurred"
+bg_shock_sound "0"
+bg_shock_soundDryLevel "1"
+bg_shock_soundEnd "shellshock_end"
+bg_shock_soundEndAbort "shellshock_end_abort"
+bg_shock_soundFadeInTime "0.25"
+bg_shock_soundFadeOutTime "2.5"
+bg_shock_soundLoop "shellshock_loop"
+bg_shock_soundLoopEndDelay "-1.5"
+bg_shock_soundLoopFadeTime "2"
+bg_shock_soundLoopSilent "shellshock_loop_silent"
+bg_shock_soundModEndDelay "-0.75"
+bg_shock_soundRoomType "underwater"
+bg_shock_soundWetLevel "0.5"
+bg_shock_viewKickFadeTime "3"
+bg_shock_viewKickPeriod "0.75"
+bg_shock_viewKickRadius "0"
+bg_swingSpeed "0.2"
+bg_viewKickMax "90"
+bg_viewKickMin "5"
+bg_viewKickRandom "0.4"
+bg_viewKickScale "0.2"
+bullet_penetrationEnabled "1"
+bullet_penetrationMinFxDist "30"
+cg_drawCrosshair "1"
+cg_drawCrosshairNames "1"
+cg_fovscale "1"
+cg_headiconminscreenradius "0.015"
+cg_hudGrenadeIconMaxRangeFrag "250"
+cg_hudlegacysplitscreenscale "2"
+cg_hudMapBorderWidth "2"
+cg_hudMapFriendlyHeight "15"
+cg_hudMapFriendlyWidth "15"
+cg_hudMapPlayerHeight "20"
+cg_hudMapPlayerWidth "20"
+cg_hudObjectiveTextScale "0.3"
+cg_hudsplitscreencompassscale "1.5"
+cg_hudsplitscreenstancescale "2"
+cg_weaponHintsCoD1Style "1"
+cl_freelook "1"
+cl_mouseAccel "0"
+cl_paused "0"
+clientSideEffects "1"
+com_animCheck "0"
+com_errorMessage ""
+com_errorTitle ""
+com_filter_output "0"
+com_introPlayed "0"
+com_maxfps "85"
+com_maxFrameTime "100"
+com_playerProfile ""
+com_statmon "0"
+com_timescale "1"
+compassmaxrange "1600"
+con_default_console_filter "*"
+con_gameMsgWindow0Filter "gamenotify obituary"
+con_gameMsgWindow1Filter "boldgame"
+con_gameMsgWindow2Filter "subtitle"
+con_gameMsgWindow3Filter ""
+debug_destructibles "0"
+dedicated "dedicated internet server"
+destructibles_enable_physics "1"
+developer "0"
+developer_script "0"
+fixedtime "0"
+friction "5.5"
+fs_basegame ""
+fs_basepath ""
+fs_cdpath ""
+fs_copyfiles "0"
+fs_debug "0"
+fs_game ""
+fs_homepath ""
+fs_ignoreLocalized "0"
+fs_restrict "0"
+g_allowVote "1"
+g_antilag "1"
+g_banIPs ""
+g_clonePlayerMaxVelocity "80"
+g_compassShowEnemies "0"
+g_deadChat "1"
+g_debugBullets "0"
+g_debugDamage "0"
+g_debugLocDamage "0"
+g_dropForwardSpeed "10"
+g_dropHorzSpeedRand "100"
+g_dropUpSpeedBase "10"
+g_dropUpSpeedRand "5"
+g_dumpAnims "-1"
+g_entinfo "off"
+g_fogColorReadOnly "0.501961 0.501961 0.45098 1"
+g_fogHalfDistReadOnly "3500"
+g_fogStartDistReadOnly "500"
+g_friendlyfireDist "256"
+g_friendlyNameDist "15000"
+g_gametype "war"
+g_gravity "800"
+g_inactivity "0"
+g_knockback "1000"
+g_listEntity "0"
+g_log "games_mp.log"
+g_logSync "0"
+g_mantleBlockTimeBuffer "500"
+g_maxDroppedWeapons "16"
+g_minGrenadeDamageSpeed "400"
+g_motd ""
+g_no_script_spam "0"
+g_oldVoting "1"
+g_password ""
+g_playerCollisionEjectSpeed "25"
+g_redCrosshairs "1"
+g_ScoresColor_Allies "0.6 0.639216 0.690196 0"
+g_ScoresColor_Axis "0.65098 0.568627 0.411765 0"
+g_ScoresColor_EnemyTeam "0.690196 0.0705882 0.0509804 1"
+g_ScoresColor_Free "0.760784 0.780392 0.101961 0"
+g_ScoresColor_MyTeam "0.25098 0.721569 0.25098 1"
+g_ScoresColor_Spectator "0.25098 0.25098 0.25098 0"
+g_smoothClients "1"
+g_speed "190"
+g_synchronousClients "0"
+g_TeamColor_Allies "0.6 0.639216 0.690196 0"
+g_TeamColor_Axis "0.65098 0.568627 0.411765 0"
+g_TeamColor_EnemyTeam "1 0.45098 0.501961 0"
+g_TeamColor_Free "0.74902 0.25098 0.25098 1"
+g_TeamColor_MyTeam "0.6 0.8 0.6 0"
+g_TeamColor_Spectator "0.25098 0.25098 0.25098 1"
+g_TeamIcon_Allies "faction_128_usmc"
+g_TeamIcon_Axis "faction_128_arab"
+g_TeamIcon_Free ""
+g_TeamIcon_Spectator ""
+g_TeamName_Allies "MPUI_MARINES_SHORT"
+g_TeamName_Axis "MPUI_OPFOR_SHORT"
+g_useholdspawndelay "500"
+g_useholdtime "0"
+g_voiceChatTalkingDuration "500"
+g_voteAbstainWeight "0.5"
+gamedate "Nov 21 2007"
+gamename "Call of Duty 4"
+hiDef "1"
+inertiaAngle "0"
+inertiaDebug "0"
+inertiaMax "50"
+jump_height "39"
+jump_ladderPushVel "128"
+jump_slowdownEnable "1"
+jump_spreadAdd "64"
+jump_stepSize "18"
+koth_autodestroytime "60"
+koth_capturetime "20"
+koth_delayPlayer "0"
+koth_destroytime "10"
+koth_kothmode "0"
+koth_spawnDelay "60"
+koth_spawntime "0"
+loc_forceEnglish "0"
+loc_language "0"
+loc_translate "1"
+loc_warnings "1"
+loc_warningsAsErrors "0"
+logfile "0"
+m_filter "0"
+m_pitch "0.022"
+mantle_check_angle "60"
+mantle_check_radius "0.1"
+mantle_check_range "20"
+mantle_debug "0"
+mantle_enable "1"
+mantle_view_yawcap "60"
+mapname ""
+masterPort "20810"
+masterServerName "cod4master.activision.com"
+melee_debug "0"
+missileDebugAttractors "0"
+missileDebugDraw "0"
+missileDebugText "0"
+missileHellfireMaxSlope "0.5"
+missileHellfireUpAccel "1000"
+missileJavAccelClimb "300"
+missileJavAccelDescend "3000"
+missileJavClimbAngleDirect "85"
+missileJavClimbAngleTop "50"
+missileJavClimbCeilingDirect "0"
+missileJavClimbCeilingTop "3000"
+missileJavClimbHeightDirect "10000"
+missileJavClimbHeightTop "15000"
+missileJavClimbToOwner "700"
+missileJavSpeedLimitClimb "1000"
+missileJavSpeedLimitDescend "6000"
+missileJavTurnDecel "0.05"
+missileJavTurnRateDirect "60"
+missileJavTurnRateTop "100"
+missileWaterMaxDepth "60"
+msg_dumpEnts "0"
+msg_hudelemspew "0"
+msg_printEntityNums "0"
+net_ip "localhost"
+net_lanauthorize "0"
+net_noudp "0"
+net_port "28960"
+net_profile "0"
+net_showprofile "0"
+nextmap "map_restart"
+packetDebug "0"
+perk_armorVest "75"
+perk_bulletDamage "40"
+perk_bulletPenetrationMultiplier "2"
+perk_explosiveDamage "25"
+perk_extraBreath "5"
+perk_grenadeDeath "frag_grenade_short_mp"
+perk_parabolicAngle "180"
+perk_parabolicIcon "specialty_parabolic"
+perk_parabolicRadius "400"
+perk_sprintMultiplier "2"
+perk_weapRateMultiplier "0.75"
+perk_weapReloadMultiplier "0.5"
+perk_weapSpreadMultiplier "0.65"
+pickupPrints "0"
+player_adsExitDelay "0"
+player_backSpeedScale "0.7"
+player_breath_fire_delay "0"
+player_breath_gasp_lerp "6"
+player_breath_gasp_scale "4.5"
+player_breath_gasp_time "1"
+player_breath_hold_lerp "1"
+player_breath_hold_time "4.5"
+player_breath_snd_delay "1"
+player_breath_snd_lerp "2"
+player_burstFireCooldown "0.2"
+player_debugHealth "0"
+player_dmgtimer_flinchTime "500"
+player_dmgtimer_maxTime "750"
+player_dmgtimer_minScale "0"
+player_dmgtimer_stumbleTime "500"
+player_dmgtimer_timePerPoint "100"
+player_footstepsThreshhold "0"
+player_lean_rotate_crouch_left "1.25"
+player_lean_rotate_crouch_right "1"
+player_lean_rotate_left "1.25"
+player_lean_rotate_right "1.25"
+player_lean_shift_crouch_left "12.5"
+player_lean_shift_crouch_right "13"
+player_lean_shift_left "5"
+player_lean_shift_right "2.5"
+player_meleeChargeFriction "1200"
+player_meleeHeight "10"
+player_meleeRange "64"
+player_meleeWidth "10"
+player_MGUseRadius "128"
+player_move_factor_on_torso "0"
+player_moveThreshhold "10"
+player_scopeExitOnDamage "0"
+player_spectateSpeedScale "1"
+player_sprintCameraBob "0.5"
+player_sprintForwardMinimum "105"
+player_sprintMinTime "1"
+player_sprintRechargePause "0"
+player_sprintSpeedScale "1.5"
+player_sprintStrafeSpeedScale "0.667"
+player_sprintTime "4"
+player_strafeAnimCosAngle "0.5"
+player_strafeSpeedScale "0.8"
+player_sustainAmmo "0"
+player_throwbackInnerRadius "90"
+player_throwbackOuterRadius "160"
+player_turnAnims "0"
+player_view_pitch_down "85"
+player_view_pitch_up "85"
+protocol "1"
+r_specularcolorscale "1"
+radius_damage_debug "0"
+rcon_password "pass"
+scr_allies "usmc"
+scr_art_tweak "0"
+scr_art_visionfile ""
+scr_axis "arab"
+scr_cinematic_autofocus "1"
+scr_ctf_numlives "0"
+scr_ctf_playerrespawndelay "0"
+scr_ctf_roundlimit "2"
+scr_ctf_roundswitch "1"
+scr_ctf_scorelimit "10"
+scr_ctf_timelimit "5"
+scr_ctf_waverespawndelay "15"
+scr_dm_numlives "0"
+scr_dm_playerrespawndelay "0"
+scr_dm_roundlimit "1"
+scr_dm_scorelimit "150"
+scr_dm_timelimit "10"
+scr_dm_waverespawndelay "0"
+scr_dof_enable "1"
+scr_dom_numlives "0"
+scr_dom_playerrespawndelay "0"
+scr_dom_roundlimit "1"
+scr_dom_scorelimit "200"
+scr_dom_timelimit "0"
+scr_dom_waverespawndelay "0"
+scr_drawfriend "0"
+scr_fog_disable "0"
+scr_game_allowkillcam "1"
+scr_game_deathpointloss "0"
+scr_game_forceuav "0"
+scr_game_graceperiod "0"
+scr_game_hardpoints "1"
+scr_game_matchstarttime "5"
+scr_game_onlyheadshots "0"
+scr_game_perks "1"
+scr_game_playerwaittime "15"
+scr_game_spectatetype "1"
+scr_game_suicidepointloss "0"
+scr_hardcore "0"
+scr_hardpoint_allowartillery "1"
+scr_hardpoint_allowhelicopter "1"
+scr_hardpoint_allowsupply "1"
+scr_hardpoint_allowuav "1"
+scr_heli_armor "500"
+scr_heli_armor_bulletdamage "0.3"
+scr_heli_attract_range "4096"
+scr_heli_attract_strength "1000"
+scr_heli_debug "0"
+scr_heli_dest_wait "2"
+scr_heli_hardpoint_interval "180"
+scr_heli_health_degrade "0"
+scr_heli_loopmax "1"
+scr_heli_maxhealth "1100"
+scr_heli_missile_engage_dist "2000"
+scr_heli_missile_friendlycare "256"
+scr_heli_missile_max "3"
+scr_heli_missile_regen_time "10"
+scr_heli_missile_rof "5"
+scr_heli_missile_target_cone "0.3"
+scr_heli_rage_missile "5"
+scr_heli_target_recognition "0.5"
+scr_heli_target_spawnprotection "5"
+scr_heli_targeting_delay "0.5"
+scr_heli_turret_engage_dist "1000"
+scr_heli_turret_spinup_delay "0.75"
+scr_heli_turretClipSize "40"
+scr_heli_turretReloadTime "1.5"
+scr_heli_visual_range "3500"
+scr_intermission_time "30"
+scr_koth_numlives "0"
+scr_koth_playerrespawndelay "0"
+scr_koth_roundlimit "1"
+scr_koth_roundswitch "1"
+scr_koth_scorelimit "250"
+scr_koth_timelimit "15"
+scr_koth_waverespawndelay "0"
+scr_mapsize "64"
+scr_motd ""
+scr_oldschool "0"
+scr_player_forcerespawn "1"
+scr_player_healthregentime "5"
+scr_player_maxhealth "100"
+scr_player_numlives "0"
+scr_player_respawndelay "0"
+scr_player_sprinttime "4"
+scr_player_suicidespawndelay "0"
+scr_RequiredMapAspectratio "1"
+scr_sab_bombtimer "30"
+scr_sab_defusetime "5"
+scr_sab_hotpotato "0"
+scr_sab_numlives "0"
+scr_sab_planttime "2.5"
+scr_sab_playerrespawndelay "7.5"
+scr_sab_roundlimit "0"
+scr_sab_roundswitch "1"
+scr_sab_scorelimit "1"
+scr_sab_timelimit "20"
+scr_sab_waverespawndelay "0"
+scr_sd_bombtimer "45"
+scr_sd_defusetime "5"
+scr_sd_multibomb "0"
+scr_sd_numlives "1"
+scr_sd_planttime "5"
+scr_sd_playerrespawndelay "0"
+scr_sd_roundlimit "0"
+scr_sd_roundswitch "3"
+scr_sd_scorelimit "4"
+scr_sd_timelimit "2.5"
+scr_sd_waverespawndelay "0"
+scr_show_unlock_wait "0.1"
+scr_team_fftype "0"
+scr_team_kickteamkillers "0"
+scr_team_respawntime "0"
+scr_team_teamkillpointloss "1"
+scr_team_teamkillspawndelay "20"
+scr_teambalance "0"
+scr_teamKillPunishCount "3"
+scr_war_numlives "0"
+scr_war_playerrespawndelay "0"
+scr_war_roundlimit "1"
+scr_war_scorelimit "750"
+scr_war_timelimit "10"
+scr_war_waverespawndelay "0"
+scr_oldschool
+scr_weapon_allowc4 "1"
+scr_weapon_allowclaymores "1"
+scr_weapon_allowflash "1"
+scr_weapon_allowfrags "1"
+scr_weapon_allowmines "1"
+scr_weapon_allowrpgs "1"
+scr_weapon_allowsmoke "1"
+scr_xpscale "1"
+sensitivity "5"
+shortversion "1.0"
+showdrop "0"
+showpackets "0"
+stat_version "10"
+stopspeed "100"
+sv_allowAnonymous "0"
+sv_allowDownload "1"
+sv_allowedClan1 ""
+sv_allowedClan2 ""
+sv_botsPressAttackBtn "1"
+sv_cheats "0"
+sv_clientArchive "1"
+sv_clientSideBullets "1"
+sv_connectTimeout "45"
+sv_debugRate "0"
+sv_debugReliableCmds "0"
+sv_disableClientConsole "0"
+sv_FFCheckSums ""
+sv_FFNames ""
+sv_floodProtect "1"
+sv_fps "20"
+sv_hostname "CoD4Host"
+sv_iwdNames "iw_11 iw_10 iw_09 iw_08 iw_07 iw_06 iw_05 iw_04 iw_03 iw_02 iw_01 iw_00"
+sv_iwds "-292863836 173489706 -1846635013 -1079795827 -1041447890 -715502781 489843315 499941093 309900900 -165391090 648005745 -1190209610 "
+sv_keywords ""
+sv_kickBanTime "300"
+sv_mapname ""
+sv_mapRotation "map mp_backlot map mp_bloc map mp_bog map mp_cargoship map mp_citystreets map mp_convoy map mp_countdown map mp_crash map mp_crossfire map mp_farm map mp_overgrown map mp_pipeline map mp_showdown map mp_strike map mp_vacant"
+sv_mapRotationCurrent ""
+sv_maxclients "24"
+sv_maxPing "0"
+sv_maxRate "5000"
+sv_minPing "0"
+sv_packet_info "0"
+sv_padPackets "0"
+sv_paused "0"
+sv_privateClients "0"
+sv_privatePassword ""
+sv_punkbuster "0"
+sv_pure "1"
+sv_reconnectlimit "3"
+sv_referencedFFCheckSums "88764 35287381 13517381"
+sv_referencedFFNames "code_post_gfx_mp mp_crash common_mp"
+sv_referencedIwdNames ""
+sv_referencedIwds ""
+sv_running "1"
+sv_serverid "16"
+sv_showAverageBPS "0"
+sv_showCommands "0"
+sv_timeout "240"
+sv_voice "0"
+sv_voiceQuality "3"
+sv_wwwBaseURL ""
+sv_wwwDlDisconnected "0"
+sv_wwwDownload "0"
+sv_zombietime "2"
+timescale "1"
+ttycon "0"
+ui_allow_classchange ""
+ui_allow_controlschange "1"
+ui_allow_teamchange ""
+ui_allowvote "1"
+ui_bomb_timer "0"
+ui_borderLowLightScale "0.35"
+ui_buildLocation "-60 460"
+ui_friendlyfire "0"
+ui_gametype "war"
+ui_hostname "CoD4Host"
+ui_hud_hardcore "0"
+ui_hud_obituaries "1"
+ui_hud_showobjicons "1"
+ui_mapname ""
+ui_maxclients "32"
+ui_motd ""
+ui_mousePitch "0"
+ui_playerProfileAlreadyChosen "0"
+ui_score_bar "0"
+ui_scorelimit "750"
+ui_showmap "1"
+ui_timelimit "10"
+ui_uav_allies "0"
+ui_uav_axis "0"
+ui_uav_client "0"
+useFastFile "1"
+username "root"
+vehDebugServer "0"
+vehHelicopterDecelerationFwd "0.5"
+vehHelicopterDecelerationSide "1"
+vehHelicopterHeadSwayDontSwayTheTurret "1"
+vehHelicopterHoverSpeedThreshold "400"
+vehHelicopterInvertUpDown "0"
+vehHelicopterJitterJerkyness "0.3"
+vehHelicopterLookaheadTime "1"
+vehHelicopterMaxAccel "45"
+vehHelicopterMaxAccelVertical "30"
+vehHelicopterMaxPitch "35"
+vehHelicopterMaxRoll "35"
+vehHelicopterMaxSpeed "150"
+vehHelicopterMaxSpeedVertical "65"
+vehHelicopterMaxYawAccel "90"
+vehHelicopterMaxYawRate "120"
+vehHelicopterRightStickDeadzone "0.3"
+vehHelicopterScaleMovement "1"
+vehHelicopterSoftCollisions "0"
+vehHelicopterStrafeDeadzone "0.3"
+vehHelicopterTiltFromAcceleration "2"
+vehHelicopterTiltFromControllerAxes "0"
+vehHelicopterTiltFromDeceleration "2"
+vehHelicopterTiltFromFwdAndYaw "0"
+vehHelicopterTiltFromFwdAndYaw_VelAtMaxTilt "1"
+vehHelicopterTiltFromVelocity "1"
+vehHelicopterTiltMomentum "0.4"
+vehHelicopterTiltSpeed "1.2"
+vehHelicopterYawOnLeftStick "5"
+vehTestHorsepower "200"
+vehTestMaxMPH "40"
+vehTestWeight "5200"
+vehTextureScrollScale "0"
+version ""
+voice_deadChat "0"
+voice_global "0"
+voice_localEcho "0"
+waypointIconHeight "36"
+waypointIconWidth "36"
+waypointOffscreenPointerDistance "20"
+wideScreen "1"
+
+PB_SV_AutoUpdBan [0/1]
+PB_SV_BadName [grace_seconds] [text_filter]
+PB_SV_BadNameDel [slot #]
+PB_SV_BadNameList
+PB_SV_Ban [name or slot #] [displayed_reason] | [optional_private_reason]
+PB_SV_BanEmpty
+PB_SV_BanGuid [guid] [player_name] [IP_Address] [reason]
+PB_SV_BanList [optional_search_text]
+PB_SV_BanLoad [optional filename]
+PB_SV_BanMask [IP Address / Subnet Mask]
+PB_SV_Disable
+PB_SV_Enable
+PB_SV_GetSs [player_name_or_slot#]
+PB_SV_IPGuard [IP Address]
+PB_SV_Kick [name or slot #] [minutes] [displayed_reason] | [optional_private_reason]
+PB_SV_Load [File Name]
+PB_SV_NameLock [GUID or partial match] [Name to Lock]
+PB_SV_NameLockEmpty
+PB_SV_NameLockList
+PB_SV_NewLog
+PB_SV_PList
+PB_SV_Power [slot #] [power rating]
+PB_SV_PowerList [filter]
+PB_SV_PowerPoints [power slot #] [points]
+PB_SV_ProtectName [Unique ID] [Registered Name]
+PB_SV_ProtectTag [Unique ID] [Registered Tag]
+PB_SV_ReBan [slot #]
+PB_SV_Task [X] [Y] [command]
+PB_SV_TaskDel [task slot #]
+PB_SV_TaskEmpty
+PB_SV_TList
+PB_SV_UnBan [slot #]
+PB_SV_UnBanGuid [guid]
+PB_SV_Update
+PB_SV_UpdBanFile [optional filename]
+PB_SV_Ver
+PB_SV_WriteCfg
+PB_SV_AutoSs [0/1]
+PB_SV_AutoSsFrom [Seconds]
+PB_SV_AutoSsTo [Seconds]
+PB_SV_ExtChar [0/1]
+PB_SV_GameAuth [0/1]
+PB_SV_HttpAddr [IP Address]
+PB_SV_HttpKey [Key (password) for WebTool use]
+PB_SV_HttpPort [Port Number]
+PB_SV_HttpRefresh [Number]
+PB_SV_KickLen [Minutes]
+PB_SV_LanMask [IP Subnet Mask]
+PB_SV_LogAddr [Address / Internet Hostname]
+PB_SV_LogCeiling [Number]
+PB_SV_LogNext [Number]
+PB_SV_LogPort [Port #]
+PB_SV_LogPw [Password]
+PB_SV_LogUser [Username]
+PB_SV_MaxConDls [Number]
+PB_SV_MaxDlRate [KB/sec]
+PB_SV_MsgPrefix [New Prefix]
+PB_SV_NoGuidGrace [Seconds]
+PB_SV_PowerDef [power points]
+PB_SV_PowerKickLen [minutes]
+PB_SV_PowerMin [power points]
+PB_SV_Sleep [Period]
+PB_SV_SsCeiling [Number]
+PB_SV_SsCmd [Filename]
+PB_SV_SsDelay [Seconds]
+PB_SV_SsFloor [Number]
+PB_SV_SsHeight [Pixels]
+PB_SV_SsNext [Number]
+PB_SV_SsPath [Path]
+PB_SV_SsSRate [Number]
+PB_SV_SsWidth [Pixels]
+PB_SV_SsXPct [Percentage]
+PB_SV_SsYPct [Percentage]
+PB_SV_UpdateGrace [Seconds]

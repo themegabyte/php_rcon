@@ -1,0 +1,85 @@
+body {
+	font-family: Verdana, Tahoma, Arial, Helvetica, 'Arial CE';
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+table {
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	color: white;
+}
+h1 {
+	color: rgb(255,0,0);
+	font-weight: bold;
+	font-size: 16px;
+}
+h2 {
+	color: rgb(255,0,0);
+	font-weight: bold;
+	font-size: 12px;
+}
+pre {
+	font-size: 12px;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-weight: normal;
+	color: white;
+}
+img {
+	text-decoration: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+a img {
+	text-decoration: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #CCCCCC;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:Hover {
+	background-color: transparent;
+	color: white;
+}
+a.title {
+	text-decoration: none;
+	font-size: 8pt;
+	DISPLAY: block;
+	color: #CCCCCC;
+	width: 100%;
+}
+a.title:Hover {
+	color: white;
+}
+a.none {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+a.none:Hover {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+a.none:Active {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+/*                 2010 (c) Ashus                 */
+/*          All author's rights reserved.         */
+/*             http://ashus.ashus.net             */

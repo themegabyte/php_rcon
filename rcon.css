@@ -1,0 +1,214 @@
+#phprcon {
+	position: relative;
+}
+#phprcon tr.odd {
+	background-color: #150D0D;
+}
+#phprcon tr.even {
+	background-color: #300D0D;
+}
+#phprcon .dropdown {
+	font-family: Verdana, Tahoma, Arial, Helvetica, 'Arial CE';
+	font-size: 8pt;
+	color: white;
+	background-color: black;
+	border: 2px ridge;
+}
+#phprcon .query {
+	font-family: Verdana, Tahoma, Arial, Helvetica, 'Arial CE';
+	font-size: 8pt;
+	color: white;
+	background-color: black;
+	border: 2px ridge;
+}
+#phprcon .button {
+	font-family: Verdana, Tahoma, Arial, Helvetica, 'Arial CE';
+	font-size: 8pt;
+	font-weight: bold;
+}
+#phprcon form {
+	margin: 0px;
+}
+#phprcon pre {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#phprcon .suggest {
+	position: absolute;
+	width: 70%;
+	display: block;
+	overflow: auto;
+	height: 300px;
+}
+#phprcon .suggest_inv {
+	display: none;
+}
+#phprcon .suggest_link {
+	color: #CCCCCC;
+	background-color: #150D0D;
+	padding: 2px 3px 2px 3px;
+	width: 100%;
+	border: 0px;
+	padding: 1px;
+}
+#phprcon .suggest_link:Hover {
+	background-color: #300D0D;
+}
+#phprcon #refreshcontainer {
+	vertical-align: middle;
+	line-height: 19px;
+}
+#phprcon #working {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	left: auto;
+	margin: 0;
+	padding: 0;
+}
+#phprcon table {
+	border-spacing: 0;
+}
+#phprcon table tbody {
+	border-spacing: 2px;
+}
+#phprcon img.flag {
+	height: 15px;
+	width: 25px;
+	vertical-align: middle;
+}
+#phprcon #mapimg {
+	border: 2px ridge;
+	background-color: #000000;
+	/*background: url(graphics/map_bg.png) repeat-x top;
+*/
+	display: none;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	z-index: 5;
+}
+#phprcon #mapimg h2 {
+	margin: 0;
+	padding: 10px 0 10px 0;
+	color: white;
+	font-size: 12px;
+	line-height: 15px;
+	text-shadow: 1px 1px 1px #ca4949;
+	text-align: center;
+	background: url(graphics/map_title.png) no-repeat top left;
+}
+#phprcon #mapimg div {
+	width: 350px;
+	height: 270px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-top: 2px ridge;
+}
+#phprcon #plist table {
+}
+#phprcon a.rconbtn.img {
+	text-decoration: none;
+	background-color: transparent;
+}
+#phprcon .rconbtn.img {
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	width: 16px;
+	background: transparent url(graphics/icons/unknown.png) no-repeat 0% 0%;
+	text-decoration: none;
+	border: 0;
+}
+#phprcon .rconbtn.img.ro_text {
+	text-indent: 21px;
+	line-height: 16px;
+	width: auto;
+    white-space: nowrap;
+}
+#phprcon .rconbtn.img.rb_ok, #phprcon .rconbtn.img.rb_enable {
+	background-image: url(graphics/icons/enable.png);
+}
+#phprcon .rconbtn.img.rb_disable {
+	background-image: url(graphics/icons/disable.png);
+}
+#phprcon .rconbtn.img.rb_get {
+	background-image: url(graphics/icons/get.png);
+}
+#phprcon .rconbtn.img.rb_colors {
+	background-image: url(graphics/icons/colors.png);
+}
+#phprcon .rconbtn.img.rb_flag {
+	background-image: url(graphics/icons/flag.png);
+}
+#phprcon .rconbtn.img.rb_settings {
+	background-image: url(graphics/icons/settings.png);
+}
+#phprcon .rconbtn.img.rb_x, #phprcon .rconbtn.img.rbc_pb_sv_kick, #phprcon .rconbtn.img.rbc_clientkick {
+	background-image: url(graphics/icons/kick.png);
+}
+#phprcon .rconbtn.img.rbc_pb_sv_ban, #phprcon .rconbtn.img.rbc_banclient, #phprcon .rconbtn.img.rbc_tempbanclient {
+	background-image: url(graphics/icons/ban.png);
+}
+#phprcon .rconbtn.img.rb_say {
+	background-image: url(graphics/icons/say.png);
+}
+#phprcon .rconbtn.img.rb_tell {
+	background-image: url(graphics/icons/tell.png);
+}
+#phprcon .rconbtn.img.rb_map, #phprcon .rconbtn.img.rb_screenshots, #phprcon .rconbtn.img.rbc_pb_sv_getss {
+	background-image: url(graphics/icons/screenshot.png);
+}
+#phprcon .rconbtn.img.rb_pause {
+	background-image: url(graphics/icons/pause.png);
+}
+#phprcon .rconbtn.img.rb_refresh {
+	background-image: url(graphics/icons/refresh.png);
+}
+#phprcon .rconbtn.img.rb_log {
+	background-image: url(graphics/icons/log.png);
+}
+#phprcon .playerlist {
+	position: relative;
+    white-space: nowrap;
+}
+#phprcon #log, #phprcon #settings, #phprcon #screenshots {
+	margin: 5px;
+	padding: 5px;
+	border: 2px ridge;
+}
+#phprcon #log {
+	_height: 200px;
+	max-height: 200px;
+	overflow: auto;
+}
+#phprcon #screenshots {
+	_height: 350px;
+	max-height: 350px;
+	overflow: auto;
+}
+#phprcon #settings, #phprcon #log, #phprcon #screenshots {
+	display: none;
+}
+#phprcon #settings_frame, #phprcon #log_frame, #phprcon #screenshots_frame {
+	margin-top: 15px;
+}
+#phprcon #log pre {
+	/*font-size: 10px;
+*/
+}
+
+#phprcon #screenshot_img {
+	right: 5px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+#phprcon #screenshots table a {
+	display: block;
+}
+
+/*                 2010 (c) Ashus                 */
+/*          All author's rights reserved.         */
+/*             http://ashus.ashus.net             */

@@ -1,0 +1,419 @@
+cmdlist
+snd_refreshVolumeModGroups
+touchFile
+fdir
+dir
+fullpath
+path
+map
+set
+stringUsage
+scriptUsage
+tell
+say
+killserver
+devmap
+gameCompleteStatus
+map_rotate
+fast_restart
+map_restart
+dumpuser
+systeminfo
+serverinfo
+status
+clientkick
+unbanUser
+tempBanClient
+tempBanUser
+kick
+banClient
+banUser
+onlykick
+heartbeat
+net_dumpprofile
+in_restart
+writedefaults
+writeconfig
+quit
+meminfo
+seta
+exec
+wait
+vstr
+setu
+dvar_float
+dvar_int
+dvar_bool
+dvardump
+dvarlist
+reset
+setfromdvar
+sets
+togglep
+toggle
+
+arch ""
+bg_aimSpreadMoveSpeedThreshold "11"
+bg_bobAmplitudeDucked "0.0075"
+bg_bobAmplitudeProne "0.03"
+bg_bobAmplitudeStanding "0.007"
+bg_bobMax "8"
+bg_fallDamageMaxHeight "480"
+bg_fallDamageMinHeight "256"
+bg_foliagesnd_fastinterval "500"
+bg_foliagesnd_maxspeed "180"
+bg_foliagesnd_minspeed "40"
+bg_foliagesnd_resetinterval "500"
+bg_foliagesnd_slowinterval "1500"
+bg_ladder_yawcap "100"
+bg_prone_yawcap "85"
+bg_swingSpeed "0.2"
+cg_headiconminscreenradius "0.015"
+cl_freelook "1"
+cl_mouseAccel "0"
+cl_paused "0"
+com_animCheck "0"
+com_expectedHunkUsage "101425536"
+com_hunkMegs "160"
+com_introPlayed "0"
+com_maxfps "85"
+dedicated "2"
+developer "0"
+developer_script "0"
+fixedtime "0"
+friction "5.5"
+fs_basegame ""
+fs_basepath ""
+fs_cdpath ""
+fs_copyfiles "0"
+fs_debug "0"
+fs_game ""
+fs_homepath ""
+fs_ignoreLocalized "0"
+fs_restrict "0"
+fs_useOldAssets "0"
+g_allowVote "1"
+g_antilag "1"
+g_banIPs ""
+g_clonePlayerMaxVelocity "80"
+g_deadChat "0"
+g_debugBullets "0"
+g_debugDamage "0"
+g_debugLocDamage "0"
+g_dropForwardSpeed "10"
+g_dropUpSpeedBase "10"
+g_dropUpSpeedRand "5"
+g_dumpAnims "-1"
+g_friendlyfireDist "256"
+g_friendlyNameDist "15000"
+g_gametype "dm"
+g_gravity "800"
+g_inactivity "0"
+g_knockback "1000"
+g_listEntity "0"
+g_log "games_mp.log"
+g_logSync "0"
+g_mantleBlockTimeBuffer "500"
+g_maxDroppedWeapons "16"
+g_motd ""
+g_no_script_spam "0"
+g_oldVoting "1"
+g_password ""
+g_playerCollisionEjectSpeed "25"
+g_ScoresBanner_Allies "mpflag_american"
+g_ScoresBanner_Axis "mpflag_german"
+g_ScoresBanner_None "mpflag_none"
+g_ScoresBanner_Spectators "mpflag_spectator"
+g_smoothClients "1"
+g_speed "190"
+g_synchronousClients "0"
+g_TeamColor_Allies "0.25098 0.74902 0.25098 0"
+g_TeamColor_Axis "0.6 0.6 0.6 0"
+g_TeamName_Allies "MPUI_AMERICAN"
+g_TeamName_Axis "MPUI_GERMAN"
+g_useholdspawndelay "1"
+g_useholdtime "0"
+g_voiceChatTalkingDuration "500"
+g_voteAbstainWeight "0.5"
+g_weaponAmmoPools "0"
+gamedate "Jun 23 2006"
+gamename "Call of Duty 2"
+inertiaAngle "0"
+inertiaDebug "0"
+inertiaMax "50"
+jump_height "39"
+jump_ladderPushVel "128"
+jump_slowdownEnable "1"
+jump_spreadAdd "64"
+jump_stepSize "18"
+loc_forceEnglish "0"
+loc_language "0"
+loc_translate "1"
+loc_warnings "0"
+loc_warningsAsErrors "0"
+logfile "0"
+m_filter "0"
+m_pitch "0.022"
+mantle_check_angle "60"
+mantle_check_radius "0.1"
+mantle_check_range "20"
+mantle_debug "0"
+mantle_enable "1"
+mantle_view_yawcap "60"
+mapname ""
+net_ip "localhost"
+net_lanauthorize "0"
+net_noudp "0"
+net_port "28961"
+net_profile "0"
+net_showprofile "0"
+nextmap "map_restart"
+packetDebug "0"
+player_adsExitDelay "0"
+player_backSpeedScale "0.7"
+player_breath_fire_delay "0"
+player_breath_gasp_lerp "6"
+player_breath_gasp_scale "4.5"
+player_breath_gasp_time "1"
+player_breath_hold_lerp "4"
+player_breath_hold_time "4.5"
+player_breath_snd_delay "1"
+player_breath_snd_lerp "2"
+player_dmgtimer_flinchTime "500"
+player_dmgtimer_maxTime "750"
+player_dmgtimer_minScale "0"
+player_dmgtimer_stumbleTime "500"
+player_dmgtimer_timePerPoint "100"
+player_footstepsThreshhold "0"
+player_meleeHeight "10"
+player_meleeRange "64"
+player_meleeWidth "10"
+player_moveThreshhold "10"
+player_scopeExitOnDamage "0"
+player_spectateSpeedScale "2"
+player_strafeSpeedScale "0.8"
+player_toggleBinoculars "1"
+player_turnAnims "0"
+player_view_pitch_down "85"
+player_view_pitch_up "85"
+protocol "118"
+r_glowbloomintensity0 ".25"
+r_glowbloomintensity1 ".25"
+r_glowskybleedintensity0 ".3"
+rcon_password "pass"
+scr_allow_bar "1"
+scr_allow_bren "1"
+scr_allow_enfield "1"
+scr_allow_enfieldsniper "1"
+scr_allow_fraggrenades "1"
+scr_allow_g43 "1"
+scr_allow_greasegun "1"
+scr_allow_kar98k "1"
+scr_allow_kar98ksniper "1"
+scr_allow_m1carbine "1"
+scr_allow_m1garand "1"
+scr_allow_mp40 "1"
+scr_allow_mp44 "1"
+scr_allow_nagant "1"
+scr_allow_nagantsniper "1"
+scr_allow_pps42 "1"
+scr_allow_ppsh "1"
+scr_allow_shotgun "1"
+scr_allow_smokegrenades "1"
+scr_allow_springfield "1"
+scr_allow_sten "1"
+scr_allow_svt40 "1"
+scr_allow_thompson "1"
+scr_ctf_scorelimit "5"
+scr_ctf_timelimit "30"
+scr_dm_scorelimit "50"
+scr_dm_timelimit "30"
+scr_drawfriend "1"
+scr_forcerespawn "1"
+scr_friendlyfire "0"
+scr_hq_scorelimit "600"
+scr_hq_timelimit "30"
+scr_killcam "1"
+scr_motd ""
+scr_sd_bombtimer "60"
+scr_sd_graceperiod "15"
+scr_sd_roundlength "4"
+scr_sd_roundlimit "0"
+scr_sd_scorelimit "10"
+scr_sd_timelimit "0"
+scr_spectateenemy "0"
+scr_spectatefree "0"
+scr_tdm_scorelimit "300"
+scr_tdm_timelimit "30"
+scr_teambalance "0"
+sensitivity "5"
+shortversion "1.3"
+showdrop "0"
+showpackets "0"
+stopspeed "100"
+sv_allowAnonymous "0"
+sv_allowDownload "1"
+sv_allowedClan1 ""
+sv_allowedClan2 ""
+sv_cheats "0"
+sv_debugRate "0"
+sv_debugReliableCmds "0"
+sv_disableClientConsole "0"
+sv_floodProtect "1"
+sv_fps "20"
+sv_hostname "CoD2Host"
+sv_iwdNames "iw_15 iw_14 iw_13 iw_12 iw_11 iw_10 iw_09 iw_08 iw_07 iw_06 iw_05 iw_04 iw_03 iw_02 iw_01 iw_00"
+sv_iwds "181429573 -1449716526 780394069 -1333623355 -1980843666 1334775335 -621896007 1101180720 1046874969 1053665859 1842349204 -1652414412 1659111092 -1085686032 -2025394354 178615151 "
+sv_keywords ""
+sv_kickBanTime "300"
+sv_mapname ""
+sv_mapRotation ""
+sv_mapRotationCurrent ""
+sv_maxclients "20"
+sv_maxPing "0"
+sv_maxRate "0"
+sv_minPing "0"
+sv_packet_info "0"
+sv_padPackets "0"
+sv_paused "0"
+sv_privateClients "0"
+sv_privatePassword ""
+sv_punkbuster "0"
+sv_pure "1"
+sv_reconnectlimit "3"
+sv_referencedIwdNames "main/iw_15 main/iw_13 main/iw_08 main/iw_07 main/iw_06 main/iw_03"
+sv_referencedIwds "181429573 780394069 1101180720 1046874969 1053665859 1659111092 "
+sv_running "1"
+sv_serverid "16"
+sv_showAverageBPS "0"
+sv_showCommands "0"
+sv_timeout "240"
+sv_voice "0"
+sv_voiceQuality "1"
+sv_wwwBaseURL ""
+sv_wwwDlDisconnected "0"
+sv_wwwDownload "0"
+sv_zombietime "2"
+timescale "1"
+ttycon "0"
+ui_allow_sniperrifles "1"
+ui_allowvote "1"
+ui_dm_scorelimit "50"
+ui_dm_timelimit "30"
+ui_friendlyfire "0"
+ui_hostname "CoD2Host"
+ui_mapname "random"
+ui_motd ""
+ui_mousePitch "0"
+username ""
+version ""
+viewlog "1"
+voice_deadChat "0"
+voice_global "0"
+voice_localEcho "0"
+
+PB_SV_AutoUpdBan [0/1]
+PB_SV_BadName [grace_seconds] [text_filter]
+PB_SV_BadNameDel [slot #]
+PB_SV_BanNameEmpty
+PB_SV_BadNameList
+PB_SV_Ban [name or slot #] [displayed_reason] | [optional_private_reason]
+PB_SV_BanEmpty
+PB_SV_BanGuid [guid] [player_name] [IP_Address] [reason]
+PB_SV_BanList [optional_search_text]
+PB_SV_BanLoad [optional filename]
+PB_SV_BanMask [IP Address / Subnet Mask]
+PB_SV_BindSrch [search_text] [player_name_or_slot#]
+PB_SV_Cvar [Cvar_name] [IN/OUT/INCLUDE/EXCLUDE] [Param1] [optional_Param2]
+PB_SV_CvarChanged [player_name_or_slot#]
+PB_SV_CvarDel [Cvar slot #]
+PB_SV_CvarEmpty
+PB_SV_CvarList
+PB_SV_CvarSrch [search_text] [player_name_or_slot#]
+PB_SV_CvarUser [player_name_or_slot#]
+PB_SV_CvarVal [Variable_Name] [player_name_or_slot#]
+PB_SV_Disable
+PB_SV_Enable
+PB_SV_GetSs [player_name_or_slot#]
+PB_SV_HomePath
+PB_SV_IPGuard [IP Address]
+PB_SV_Kick [name or slot #] [minutes] [displayed_reason] | [optional_private_reason]
+PB_SV_Load [File Name]
+PB_SV_NameLock [GUID or partial match] [Name to Lock]
+PB_SV_NameLockEmpty
+PB_SV_NameLockList
+PB_SV_NewLog
+PB_SV_PList
+PB_SV_Power [slot #] [power rating]
+PB_SV_PowerList [filter]
+PB_SV_PowerPoints [power slot #] [points]
+PB_SV_ProtectName [Unique ID] [Registered Name]
+PB_SV_ProtectTag [Unique ID] [Registered Tag]
+PB_SV_RCon [min power points] [command prefix]
+PB_SV_ReBan [slot #]
+PB_SV_RList
+PB_SV_Task [X] [Y] [command]
+PB_SV_TaskDel [task slot #]
+PB_SV_TaskEmpty
+PB_SV_TList
+PB_SV_UnBan [slot #]
+PB_SV_UnBanGuid [guid]
+PB_SV_Update
+PB_SV_UpdBanFile [optional filename]
+PB_SV_Ver
+PB_SV_WriteCfg
+PB_SV_AutoSs [0/1]
+PB_SV_AutoSsFrom [Seconds]
+PB_SV_AutoSsTo [Seconds]
+PB_SV_ChangePeriod [1-999]
+PB_SV_ChangeMax [1-50]
+PB_SV_CQC [0/1]
+PB_SV_CvarChangedPulse [Number]
+PB_SV_CvarFreq [Number]
+PB_SV_CvarLogging [0/1/2/3]
+PB_SV_CvarUserPulse [Number]
+PB_SV_CvarWalk [Number]
+PB_SV_DupNameGrace [Seconds]
+PB_SV_EmptyName [0/1]
+PB_SV_ExtChar [0/1]
+PB_SV_GUIDRelax [0-7]
+PB_SV_HttpAddr [IP Address]
+PB_SV_HttpKey [Key (password) for WebTool use]
+PB_SV_HttpMaps [List of Maps]
+PB_SV_HttpPort [Port Number]
+PB_SV_HttpRefresh [Number]
+PB_SV_KickLen [Minutes]
+PB_SV_LAN
+PB_SV_LanMask [IP Subnet Mask]
+PB_SV_LogAddr [Address / Internet Hostname]
+PB_SV_LogCeiling [Number]
+PB_SV_LogNext [Number]
+PB_SV_LogPort [Port #]
+PB_SV_LogPw [Password]
+PB_SV_LogSync [0/1]
+PB_SV_LogUser [Username]
+PB_SV_MaxConDls [Number]
+PB_SV_MaxConUpdates [Number]
+PB_SV_MaxDlRate [KB/sec]
+PB_SV_MinName [0-4]
+PB_SV_MsgPrefix [New Prefix]
+PB_SV_NoGuidGrace [Seconds]
+PB_SV_PowerDef [power points]
+PB_SV_PowerKickLen [minutes]
+PB_SV_PowerMin [power points]
+PB_SV_Restrictions [0/1]
+PB_SV_ScoreKick [low_negative_score]
+PB_SV_Sleep [Period]
+PB_SV_Specname [text]
+PB_SV_SsCeiling [Number]
+PB_SV_SsCmd [Filename]
+PB_SV_SsDelay [Seconds]
+PB_SV_SsFloor [Number]
+PB_SV_SsHeight [Pixels]
+PB_SV_SsNext [Number]
+PB_SV_SsPath [Path]
+PB_SV_SsSRate [Number]
+PB_SV_SsWidth [Pixels]
+PB_SV_SsXPct [Percentage]
+PB_SV_SsYPct [Percentage]
+PB_SV_UpdateGrace [Seconds]

@@ -1,0 +1,127 @@
+<?php
+// here is a place to enter general settings for all servers using this game
+
+$list_of_gtypes[] = 'dm Deathmatch';
+$list_of_gtypes[] = 'tdm Team Deathmatch';
+$list_of_gtypes[] = 'dom Domination';
+$list_of_gtypes[] = 'sd Search and Destroy';
+$list_of_gtypes[] = 'ctf Capture The Flag';
+$list_of_gtypes[] = 're Retrieval';
+$list_of_gtypes[] = 'bas Base Assault';
+$list_of_gtypes[] = 'bel Behind Enemy Lines';
+$list_of_gtypes[] = 'hq Headquarters';
+
+$list_of_maps[] = 'mp_arnhem Arnhem';
+$list_of_maps[] = 'mp_berlin Berlin';
+$list_of_maps[] = 'mp_bocage Bocage';
+$list_of_maps[] = 'mp_brecourt Brecourt';
+$list_of_maps[] = 'mp_carentan Carentan';
+$list_of_maps[] = 'mp_cassino Cassino';
+$list_of_maps[] = 'mp_chateau Chateau';
+$list_of_maps[] = 'mp_dawnville Dawnville';
+$list_of_maps[] = 'mp_depot Depot';
+$list_of_maps[] = 'mp_foy Foy';
+$list_of_maps[] = 'mp_harbor Harbor';
+$list_of_maps[] = 'mp_hurtgen Hurtgen';
+$list_of_maps[] = 'mp_italy Italy';
+$list_of_maps[] = 'mp_kharkov Kharkov';
+$list_of_maps[] = 'mp_kursk Kursk';
+$list_of_maps[] = 'mp_neuville Neuville';
+$list_of_maps[] = 'mp_pavlov Pavlov';
+$list_of_maps[] = 'mp_ponyri Ponyri';
+$list_of_maps[] = 'mp_powcamp Powcamp';
+$list_of_maps[] = 'mp_railyard Railyard';
+$list_of_maps[] = 'mp_rhinevalley Rhinevalley';
+$list_of_maps[] = 'mp_rocket Rocket';
+$list_of_maps[] = 'mp_ship Ship';
+$list_of_maps[] = 'mp_sicily Sicily';
+$list_of_maps[] = 'mp_stalingrad Stalingrad';
+$list_of_maps[] = 'mp_uo_stanjel UO Stanjel';
+
+$list_of_weapons[] = 'scr_allow_artillery';
+$list_of_weapons[] = 'scr_allow_bar';
+$list_of_weapons[] = 'scr_allow_bazooka';
+$list_of_weapons[] = 'scr_allow_binoculars';
+$list_of_weapons[] = 'scr_allow_bren';
+$list_of_weapons[] = 'scr_allow_dp28';
+$list_of_weapons[] = 'scr_allow_elefant';
+$list_of_weapons[] = 'scr_allow_enfield';
+$list_of_weapons[] = 'scr_allow_fg42';
+$list_of_weapons[] = 'scr_allow_flak88';
+$list_of_weapons[] = 'scr_allow_flamethrower';
+$list_of_weapons[] = 'scr_allow_gaz67b';
+$list_of_weapons[] = 'scr_allow_gewehr43';
+$list_of_weapons[] = 'scr_allow_grenades';
+$list_of_weapons[] = 'scr_allow_horch';
+$list_of_weapons[] = 'scr_allow_kar98k';
+$list_of_weapons[] = 'scr_allow_kar98ksniper';
+$list_of_weapons[] = 'scr_allow_m1carbine';
+$list_of_weapons[] = 'scr_allow_m1garand';
+$list_of_weapons[] = 'scr_allow_mg30cal';
+$list_of_weapons[] = 'scr_allow_mg34';
+$list_of_weapons[] = 'scr_allow_mp40';
+$list_of_weapons[] = 'scr_allow_mp44';
+$list_of_weapons[] = 'scr_allow_nagant';
+$list_of_weapons[] = 'scr_allow_nagantsniper';
+$list_of_weapons[] = 'scr_allow_panzerfaust';
+$list_of_weapons[] = 'scr_allow_panzeriv';
+$list_of_weapons[] = 'scr_allow_panzerschreck';
+$list_of_weapons[] = 'scr_allow_pistols';
+$list_of_weapons[] = 'scr_allow_ppsh';
+$list_of_weapons[] = 'scr_allow_sherman';
+$list_of_weapons[] = 'scr_allow_smoke';
+$list_of_weapons[] = 'scr_allow_springfield';
+$list_of_weapons[] = 'scr_allow_sten';
+$list_of_weapons[] = 'scr_allow_su152';
+$list_of_weapons[] = 'scr_allow_svt40';
+$list_of_weapons[] = 'scr_allow_t34';
+$list_of_weapons[] = 'scr_allow_thompson';
+$list_of_weapons[] = 'scr_allow_willyjeep';
+
+$lang['scr_allow_artillery'] = 'Artillery';
+$lang['scr_allow_bar'] = 'BAR';
+$lang['scr_allow_bazooka'] = 'Bazooka';
+$lang['scr_allow_binoculars'] = 'Binoculars';
+$lang['scr_allow_bren'] = 'Bren LMG';
+$lang['scr_allow_dp28'] = 'Degtyarev DP28';
+$lang['scr_allow_elefant'] = 'Elefant';
+$lang['scr_allow_enfield'] = 'Lee-Enfield';
+$lang['scr_allow_fg42'] = 'FG42';
+$lang['scr_allow_flak88'] = 'Flak88';
+$lang['scr_allow_flamethrower'] = 'Flamethrower';
+$lang['scr_allow_gaz67b'] = 'GAZ67b';
+$lang['scr_allow_gewehr43'] = 'Gewehr 43';
+$lang['scr_allow_grenades'] = 'Grenades';
+$lang['scr_allow_horch'] = 'Horch';
+$lang['scr_allow_kar98k'] = 'Kar98k';
+$lang['scr_allow_kar98ksniper'] = 'Scoped Kar98k';
+$lang['scr_allow_m1carbine'] = 'M1A1 Carbine';
+$lang['scr_allow_m1garand'] = 'M1 Garand';
+$lang['scr_allow_mg30cal'] = 'M1919A6 .30 cal';
+$lang['scr_allow_mg34'] = 'MG34';
+$lang['scr_allow_mp40'] = 'MP40';
+$lang['scr_allow_mp44'] = 'MP44';
+$lang['scr_allow_nagant'] = 'Mosin-Nagant';
+$lang['scr_allow_nagantsniper'] = 'Scoped Mosin-Nagant';
+$lang['scr_allow_panzerfaust'] = 'Panzerfaust 60';
+$lang['scr_allow_panzeriv'] = 'Panzer';
+$lang['scr_allow_panzerschreck'] = 'Panzerschreck';
+$lang['scr_allow_pistols'] = 'Pistols';
+$lang['scr_allow_ppsh'] = 'PPSh';
+$lang['scr_allow_sherman'] = 'Sherman';
+$lang['scr_allow_smoke'] = 'Smoke grenades';
+$lang['scr_allow_springfield'] = 'Springfield';
+$lang['scr_allow_sten'] = 'Sten';
+$lang['scr_allow_su152'] = 'SU152';
+$lang['scr_allow_svt40'] = 'Tokarev SVT40';
+$lang['scr_allow_t34'] = 'T34';
+$lang['scr_allow_thompson'] = 'Thompson';
+$lang['scr_allow_willyjeep'] = 'Willys Jeep';
+
+
+$commands_disabled[] = 'rconpassword';
+$commands_disabled[] = 'cvardump';
+
+$corrupted_join_char_fix = false;
+
+?>
