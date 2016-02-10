@@ -29,7 +29,6 @@ $custom_cmd[]='Set password to "fw1"|2|lock.png/g_password fw1';
 $custom_cmd[]='Set password to "m4tch"|2|lock.png/g_password m4tch';
 $custom_cmd[]='Set password to "w4r"|2|lock.png/g_password w4r';
 $custom_cmd[]='Set password to "pglmatch1" (DEFAULT! must be set after a match has ended)|2|lock.png/g_password pglmatch1';
-//$custom_cmd[]='Set custom password (opens pop-up)|2|lock.png/g_password %m';
 
 $custom_cmd[]=' ';
 $custom_cmd[]=' ';
